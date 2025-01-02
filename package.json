@@ -1,0 +1,25 @@
+{
+  "name": "slowtime-mcp-server",
+  "version": "1.0.0",
+  "description": "An MCP server for managing slow time intervals",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "start": "node build/index.js",
+    "dev": "tsc -w"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "uuid": "^9.0.0",
+    "tlock-js": "^0.7.0",
+    "drand-client": "^1.1.0",
+    "@duckdb/duckdb-wasm": "^1.28.0",
+    "@duckdb/duckdb-wasm-shell": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/uuid": "^9.0.0",
+    "typescript": "^5.0.0"
+  }
+}
