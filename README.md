@@ -23,6 +23,8 @@ A Model Context Protocol server for secure time-based operations with timing att
 
 ```
 
+<a href="https://glama.ai/mcp/servers/mq2tb24hk0"><img width="380" height="200" src="https://glama.ai/mcp/servers/mq2tb24hk0/badge" alt="Slowtime Server MCP server" /></a>
+
 ## Features
 
 ### Time Fuzzing & Security
