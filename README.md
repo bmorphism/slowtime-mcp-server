@@ -39,10 +39,10 @@ Input Time ──┐
 ```
 Data ───────┐
            ┌▼────────────┐    ┌────────────┐    ┌────────────┐
-           │  Encrypt    │    │  Interval  │    │ League of  │
-           │   with     ├───►│ Duration   ├───►│  Entropy   │
-           │ Timelock   │    │ Remaining  │    │  Network   │
-           └────────────┘    └────────────┘    └────────────┘
+           │  Encrypt    │    │ Interval   │    │  League of │
+           │   with      ├───►│ Duration   ├───►│  Entropy   │
+           │ Timelock    │    │ Remaining  │    │  Network   │
+           └─────────────┘    └────────────┘    └────────────┘
 ```
 
 ### Interval Management
@@ -76,11 +76,11 @@ Add to your Claude Desktop config at `~/Library/Application Support/Claude/claud
 ### Basic Interval Commands
 ```
 start_interval "Focus Time" 25  ───► [25min Interval Created]
-                                          │
+                                         │
 check_interval <id>  ◄───────────────────┘
-                                          │
+                                         │
 pause_interval <id>  ◄───────────────────┘
-                                          │
+                                         │
 resume_interval <id> ◄───────────────────┘
 ```
 
@@ -112,8 +112,8 @@ Operation ──┬──► Random Delay (100-5000ms)
 ```
 ┌─────────────┐    ┌─────────────┐    ┌─────────────┐    ┌─────────────┐
 │   Encrypt   │    │ Distributed │    │  Timelock   │    │  DuckDB     │
-│    Data    ├───►│  Randomness ├───►│  Protected  ├───►│  TimeVault  │
-│            │    │  Network    │    │    Data     │    │  Storage    │
+│    Data     ├───►│ Randomness  ├───►│  Protected  ├───►│  TimeVault  │
+│             │    │ Network     │    │    Data     │    │  Storage    │
 └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
                                            │                     ▲
                                            │      ┌──────────────┘
@@ -126,7 +126,7 @@ Operation ──┬──► Random Delay (100-5000ms)
 
 ### TimeVault Analytics
 ```
-Query History ──┐
+Query History ─┐
                ├──► ┌─────────────┐
 Filter Options ┘    │   DuckDB    │    ┌─────────────┐
                     │   WASM      ├───►│  Analytics  │
