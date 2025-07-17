@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/bmorphism-slowtime-mcp-server-badge.png)](https://mseep.ai/app/bmorphism-slowtime-mcp-server)
+
 # Slowtime MCP Server
 
 A Model Context Protocol server for secure time-based operations with timing attack protection and timelock encryption.
